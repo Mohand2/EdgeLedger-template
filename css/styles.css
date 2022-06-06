@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(228, 228, 228);
+  padding: 10px 10px;
+
+}
+
+
+/* header | START  */
+#header {
+  background: url("../img/home/showcase.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.navbar .nav-links li a:hover{
+    border-bottom: 2px solid rgb(16, 153, 16);
+}
+.navbar .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar img {
+  width: 50px;
+  height: 50px;
+}
+
+/* header | END  */
